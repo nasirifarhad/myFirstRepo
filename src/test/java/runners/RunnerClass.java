@@ -17,7 +17,6 @@ import org.testng.annotations.DataProvider;
                 "json:reports/j_report.json",
                 "junit:reports/junit_report"}
 )
-
 /**1- tags will run our specific feature file, in feature files above Feature: add @test123 or
 any name you want then pass it here in tags
 2- monochrome true will provide console detail
