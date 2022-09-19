@@ -36,7 +36,7 @@
                     <suiteXmlFiles>
                         <suiteXmlFile>src/test/java/runners/testNG/testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
-
+                </configuration>
             </plugin>
 
         </plugins>
