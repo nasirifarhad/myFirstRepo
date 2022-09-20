@@ -1,20 +1,40 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="18.232">
-    <testcase classname="webdriver university login page" name="login with valid credentials" time="17.61">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="8" time="33.237">
+    <testcase classname="WebDriver university contact us page" name="Validate successful submission" time="14.276">
+        <system-out><![CDATA[Given I Access to university home page......................................passed
+When I enter first name.....................................................passed
+And I enter last name.......................................................passed
+And I enter email...........................................................passed
+And I write comment.........................................................passed
+And I click on submit button................................................passed
+Then I should see the successful submission message.........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="WebDriver university contact us page" name="Validate successful submission with - specific data" time="14.179">
+        <system-out><![CDATA[Given I Access to university home page......................................passed
+When I enter specific first name khanlalamama...............................passed
+And I enter specific last name babakakatata.................................passed
+And I enter specific email khanbabalalatata@mail.com........................passed
+And I write specific comment "where are you, how do you feel pazavank? hahahaha!!!".passed
+And I click on submit button................................................passed
+Then I should see the successful submission message.........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="webdriver university login page" name="login with valid credentials" time="7.12">
         <system-out><![CDATA[Given I access the login page...............................................passed
 When I enter valid user name................................................passed
 And I enter valid password..................................................passed
 And click on login button...................................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="webdriver university login page" name="login with invalid credentials" time="17.597">
+    <testcase classname="webdriver university login page" name="login with invalid credentials" time="9.018">
         <system-out><![CDATA[Given I access the login page...............................................passed
 When I enter invalid user name..............................................passed
 And I enter invalid password................................................passed
 And click on login button...................................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="webdriver university login page" name="" time="17.653">
+    <testcase classname="webdriver university login page" name="" time="6.072">
         <system-out><![CDATA[Given I access the login page...............................................passed
 When I enter a webdriver....................................................passed
 And I enter  a webdriver123.................................................passed
@@ -22,7 +42,7 @@ And click on login button...................................................pass
 Then I should get the validation succeeded..................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="webdriver university login page" name="_2" time="17.51">
+    <testcase classname="webdriver university login page" name="_2" time="4.915">
         <system-out><![CDATA[Given I access the login page...............................................passed
 When I enter a webdriver2...................................................passed
 And I enter  a webdriver2...................................................passed
@@ -30,7 +50,7 @@ And click on login button...................................................pass
 Then I should get the validation failed.....................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="webdriver university login page" name="_3" time="17.214">
+    <testcase classname="webdriver university login page" name="_3" time="4.524">
         <system-out><![CDATA[Given I access the login page...............................................passed
 When I enter a webdriver3...................................................passed
 And I enter  a webdriver3...................................................passed
@@ -38,7 +58,7 @@ And click on login button...................................................pass
 Then I should get the validation failed.....................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="webdriver university login page" name="_4" time="17.559">
+    <testcase classname="webdriver university login page" name="_4" time="4.354">
         <system-out><![CDATA[Given I access the login page...............................................passed
 When I enter a webdriver4...................................................passed
 And I enter  a webdriver4...................................................passed
