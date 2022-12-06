@@ -24,6 +24,7 @@ Feature: webdriver university login page
       And I enter  a <password>
       And click on login button
       Then I should get the <expectedMsg>
+
       Examples:
       |username  |password    |expectedMsg       |
       |webdriver |webdriver123|validation succeeded|
