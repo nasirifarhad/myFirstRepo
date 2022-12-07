@@ -33,7 +33,7 @@ public class RunnerClass extends AbstractTestNGCucumberTests {
     //of course from here (runnerClass) when you pass the feature file tag in tags, like @login.
     // if there are numerous scenarios in one feature file it will be run in parallel
     @Override
-    @DataProvider(parallel = true)
+    @DataProvider(parallel = false)
     public Object[][] scenarios() {
         return super.scenarios();
     }
